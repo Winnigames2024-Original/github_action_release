@@ -1,0 +1,12 @@
+name: "PHP"
+branding:
+  icon: "package"
+  color: "red"
+description: "Build & Publish Working PHP on Github and winnigames2024-original.github.io/php"
+author: "Winnigames2024-Original"
+inputs:
+  GITHUB_TOKEN:
+    description: "Easy way to allow automated publishing working php on winnigames2024-original.github.io/php and release"
+runs:
+  using: "docker"
+  image: "Dockerfile"
